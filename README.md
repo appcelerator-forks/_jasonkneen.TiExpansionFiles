@@ -2,33 +2,14 @@
 
 The Titanium Expansion Files module allows taking advantage of the [APK Expansion Files](http://developer.android.com/google/play/expansion-files.html) feature provided by the Android Play Store in Titanium Mobile applications.
 
+## Source code
+
+This module is provided as-is with no warranty or support - if you have any issues, please log them as GitHub issues and I will review. 
+
+To enquire about access to the source code, please contact me at [hello@bouncingfish.com](mailto:hello@bouncingfish.com).
+
+
 The module uses Google's Licensing and Downloader libraries distributed as Extras within the Android SDK install.
-
-
-## Building and installing the Module
-
-For building the module from source you need the tools listed in the [Appcelerator Android Module Development Guide](http://docs.appcelerator.com/titanium/latest/#!/guide/Android_Module_Development_Guide-section-29004945_AndroidModuleDevelopmentGuide-InstallingtheNecessaryComponents)
-
-Once all the necessary tools have been installed, you need to manually modify the following files:
-
-* `.classpath`
-* `build.properties`
-
-in order to reflect the actual location of the required tools in your system.
-
-The build process can be started by executing
-
-	$ ant
-
-from the command line.
-
-Once completed, the module package can be found in the `dist` directory and it can be installed globally by unzipping it in the appropriate Titanium directory. For example, on a Mac OS X system:
-
-
-	ant
-	unzip -uo dist/ti.expansionfiles-android-0.1.0.zip -d ~/Library/Application\ Support/Titanium
-
-
 
 ## Referencing the module in your Titanium Mobile application
 
