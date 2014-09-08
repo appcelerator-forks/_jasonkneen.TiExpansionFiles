@@ -190,6 +190,11 @@ Most of the methods of the `Ti.Filesystem.File` object are supported, among tho
     * Arguments: none
     * return (TiBlob): a blob representing the contents of the file
 
+ 
+##  Acknowledgements
+
+My thanks to [Oliver Morandi](http://twitter.com/olivier_morandi) without whom this would not have been possible.
+
 ## License
 
 <pre>
